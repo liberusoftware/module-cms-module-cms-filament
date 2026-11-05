@@ -1,6 +1,6 @@
 {
-  "name": "liberusoftware/boilerplate-filament",
-  "description": "Liberu reusable Filament presentation module foundation",
+  "name": "liberusoftware/cms-module-cms-filament",
+  "description": "Module Cms Filament presentation module skeleton",
   "type": "liberu-module",
   "license": "MIT",
   "require": {
@@ -9,15 +9,15 @@
   },
   "autoload": {
     "psr-4": {
-      "Liberu\\Presentation\\BoilerplateFilament\\": "src/"
+      "Liberu\\Presentation\\Capability8fe11f1e3580\\": "src/"
     }
   },
   "scripts": {
-    "check": "@php -l src/BoilerplatePlugin.php"
+    "check": "@php -l src/CapabilityPlugin.php"
   },
   "extra": {
     "liberu": {
-      "name": "boilerplate-filament"
+      "name": "cms-module-cms-filament"
     }
   }
 }
